@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* page-div */
+.home{
+  display: flex;
+}
+/* left-side*/
+.container1{
+  background-color: #ba5cfb;
+  width: 40%;
+  height: 37.1rem; 
+}
+.img{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+.form{
+  margin-left: 15%;
+  
+}
+#input{
+  width: 80%;
+  border-radius: 15px;
+  padding: 8px;
+  border-style: none;
+}
+.contents h1{
+  color:white;
+  text-align: center;
+  margin: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.button-box{
+  background-color: #e853b9;
+  color: white;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-style: none;
+}
+
+/* right-side */
+.container2{
+  background-color:#e853b9;
+  width: 60%;
+  height: 37.1rem;
+  overflow-y: scroll;
+}
+.empty img{
+  margin-left: 18%;
+}
+.content{
+  color: white;
+  margin-top: 35px;
+  margin-left: 17%;
+}
+.content h3{
+  margin-top: 2px;
+  text-align: center;
+}
+.right{
+  justify-content: center;
+  display: flex;
+}
+
+/* after click */
+
+.output-box{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 2%;
+  border: 1px solid white;
+  width: 55%;
+  height: 20%;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  justify-content: space-between;
+}
+.text{
+  text-align:center ;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.afterclick{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+.options{
+  display:flex ;
+}
+
+
+.check-box input{
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.edit img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -4px;
+}
+.delete img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -4px;
+
+}
+
+
+/* media query */
+@media screen and (max-width:900px) {
+  .home{
+    display: block;
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+  }
+  .container2{
+    
+    width: 100%;
+  }
+  .container1{
+    width: 100%;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
